@@ -48,3 +48,47 @@ table {
 }
 
 /* ======== */
+/* Base */
+*, *:before, &:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Grande', 'Lucida Sans', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #2db34a;
+}
+
+/* Layout */
+.l-wrapper {
+  display: flex;
+}
+
+.l-aside {
+  flex: 0 0 150px;
+}
+
+.l-main {
+  flex: 1 1 auto;
+}
+
+/* Modules */
+.aside {
+  padding: 30px;
+  background-color: #42444e;
+}
+
+.content,
+.footer {
+  padding: 30px;
+}
